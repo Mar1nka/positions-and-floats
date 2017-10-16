@@ -147,7 +147,9 @@ html, body {
 
 .slider__content {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1240px;
+    height: 100%;
+    position: relative;
 }
 
 .slider__text {
@@ -162,16 +164,16 @@ html, body {
 }
 
 .slider__text--top {
-    margin-top: 129px;
-    margin-left: 19px;
+    top: 129px;
+    left: 39px;
     padding: 15px 10px 15px 30px;
     color: #fb9c06;
     background-color: #000000;
 }
 
 .slider__text--bottom {
-    margin-top: 224px;
-    margin-left: 11px;
+    top: 224px;
+    left: 31px;
     padding: 15px 17px 23px 30px;
     color: #6e6d6b;
     background-color: #ffaf12;
