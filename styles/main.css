@@ -16,6 +16,10 @@ html, body {
     /*background-color: white;*/
 /*}*/
 
+/*body {*/
+    /*opacity: 0.6;*/
+/*}*/
+
 .header {
     position: fixed;
     width: 100%;
@@ -26,7 +30,7 @@ html, body {
 
 .header__content {
     width: 1200px;
-    height: 130px;
+    height: 128px;
     margin: 0 auto;
     padding: 20px 0 23px 0;
 }
@@ -134,13 +138,13 @@ html, body {
 
 .main {
     padding-top: 128px;
-    margin-bottom: 69px;
+    margin-bottom: 66px;//69
     min-height: 100%;
 }
 
 /***************Slider***********/
 .slider {
-    height: 409px;
+    height: 408px;
     width: 100%;
     position: relative;
     background-size: cover;
@@ -148,6 +152,11 @@ html, body {
     background-position: 50% 50%;
     border-top: 4px solid #fb9c06;
     border-bottom: 4px solid #fb9c06;
+}
+
+.slider__content {
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .slider__text {
@@ -162,16 +171,16 @@ html, body {
 }
 
 .slider__text--top {
-    top: 129px;
-    left: 250px;
+    margin-top: 129px;
+    margin-left: 19px;
     padding: 15px 10px 15px 30px;
     color: #fb9c06;
     background-color: #000000;
 }
 
 .slider__text--bottom {
-    top: 224px;
-    left: 243px;
+    margin-top: 224px;
+    margin-left: 11px;
     padding: 15px 17px 23px 30px;
     color: #6e6d6b;
     background-color: #ffaf12;
@@ -261,18 +270,6 @@ html, body {
     margin-left: 131px;
     margin-right: 104px;
 }
-
-/*.team-member--left{
-    margin-right: 131px;
-}
-
-.team-member--center {
-    margin-right: 104px;
-}
-
-.team-member--right {
-    margin-right: 0;
-}*/
 
 .team-member__header {
     display: block;
@@ -376,6 +373,10 @@ html, body {
     width: calc(100% - 135px);
 }
 
+.input-group__field:focus {
+    outline-color: #fb9c06;
+}
+
 .input-group__field--textarea {
     height: 93px;
     resize: none;
@@ -404,18 +405,18 @@ html, body {
 .footer {
     display: block;
     width: 100%;
-    margin-top: -69px;
-    text-align: center;
+    margin-top: -66px;
+/*-69*/
     padding-top: 16px;
     padding-bottom: 20px;
     background: #fb9c06;
-    /*position: absolute;*/
     bottom: 0;
-
+    border-bottom: 3px solid #cc830f;
+    text-align: center;
 }
 
 .footer-copyright {
-    display: inline-block;
+    display: block;
     color: #ffffff;
     font-family: "St Marie - Thin";
     font-size: 33px;
