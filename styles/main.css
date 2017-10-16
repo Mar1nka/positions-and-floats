@@ -1,4 +1,5 @@
 @import "fonts.css";
+@import "normalize.css";
 
 * {
     box-sizing: border-box;
@@ -10,16 +11,6 @@ html, body {
     margin: 0 auto;
 }
 
-/*html {*/
-    /*background: url("../markup.png") no-repeat;*/
-    /*background-position: 50% 0;*/
-    /*background-color: white;*/
-/*}*/
-
-/*body {*/
-    /*opacity: 0.6;*/
-/*}*/
-
 .header {
     position: fixed;
     width: 100%;
@@ -29,10 +20,10 @@ html, body {
 }
 
 .header__content {
-    width: 1200px;
+    width: 1240px;
     height: 128px;
     margin: 0 auto;
-    padding: 20px 0 23px 0;
+    padding: 20px 20px 23px 20px;
 }
 
 .logo {
@@ -109,7 +100,7 @@ html, body {
 .nav__item--about {
     margin-right: 51px;
     background: url(../images/nav-icons.png) no-repeat;
-    background-position-y: 0px;
+    background-position-y: 0;
     background-position-x: -120px;
 
 }
@@ -124,7 +115,7 @@ html, body {
 .nav__item--blog {
     margin-right: 66px;
     background: url(../images/nav-icons.png) no-repeat;
-    background-position-y: 0px;
+    background-position-y: 0;
     background-position-x: -361px;
 }
 
@@ -148,7 +139,7 @@ html, body {
     width: 100%;
     position: relative;
     background-size: cover;
-    background: url(../images/slider-backgraund.png) no-repeat;
+    background: url(../images/slider-background.png) no-repeat;
     background-position: 50% 50%;
     border-top: 4px solid #fb9c06;
     border-bottom: 4px solid #fb9c06;
@@ -196,7 +187,7 @@ html, body {
 
 .section-news__content {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1240px;
 }
 
 .news {
@@ -325,8 +316,8 @@ html, body {
 .section-send-message {
     width: 100%;
     margin: 0 auto;
-    max-width: 1200px;
-    padding: 17px 0 49px 0;
+    max-width: 1240px;
+    padding: 17px 20px 49px 20px;
     text-align: center;
 }
 .section-send-message__header {
